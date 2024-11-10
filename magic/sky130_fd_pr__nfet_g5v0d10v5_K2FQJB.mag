@@ -1,0 +1,98 @@
+magic
+tech sky130B
+timestamp 1698890733
+<< pwell >>
+rect -139 -829 139 829
+<< mvnmos >>
+rect -25 -700 25 700
+<< mvndiff >>
+rect -54 694 -25 700
+rect -54 -694 -48 694
+rect -31 -694 -25 694
+rect -54 -700 -25 -694
+rect 25 694 54 700
+rect 25 -694 31 694
+rect 48 -694 54 694
+rect 25 -700 54 -694
+<< mvndiffc >>
+rect -48 -694 -31 694
+rect 31 -694 48 694
+<< mvpsubdiff >>
+rect -121 805 121 811
+rect -121 788 -67 805
+rect 67 788 121 805
+rect -121 782 121 788
+rect -121 757 -92 782
+rect -121 -757 -115 757
+rect -98 -757 -92 757
+rect 92 757 121 782
+rect -121 -782 -92 -757
+rect 92 -757 98 757
+rect 115 -757 121 757
+rect 92 -782 121 -757
+rect -121 -788 121 -782
+rect -121 -805 -67 -788
+rect 67 -805 121 -788
+rect -121 -811 121 -805
+<< mvpsubdiffcont >>
+rect -67 788 67 805
+rect -115 -757 -98 757
+rect 98 -757 115 757
+rect -67 -805 67 -788
+<< poly >>
+rect -25 736 25 744
+rect -25 719 -17 736
+rect 17 719 25 736
+rect -25 700 25 719
+rect -25 -719 25 -700
+rect -25 -736 -17 -719
+rect 17 -736 25 -719
+rect -25 -744 25 -736
+<< polycont >>
+rect -17 719 17 736
+rect -17 -736 17 -719
+<< locali >>
+rect -115 788 -67 805
+rect 67 788 115 805
+rect -115 757 -98 788
+rect 98 757 115 788
+rect -25 719 -17 736
+rect 17 719 25 736
+rect -48 694 -31 702
+rect -48 -702 -31 -694
+rect 31 694 48 702
+rect 31 -702 48 -694
+rect -25 -736 -17 -719
+rect 17 -736 25 -719
+rect -115 -788 -98 -757
+rect 98 -788 115 -757
+rect -115 -805 -67 -788
+rect 67 -805 115 -788
+<< viali >>
+rect -17 719 17 736
+rect -48 -694 -31 694
+rect 31 -694 48 694
+rect -17 -736 17 -719
+<< metal1 >>
+rect -23 736 23 739
+rect -23 719 -17 736
+rect 17 719 23 736
+rect -23 716 23 719
+rect -51 694 -28 700
+rect -51 -694 -48 694
+rect -31 -694 -28 694
+rect -51 -700 -28 -694
+rect 28 694 51 700
+rect 28 -694 31 694
+rect 48 -694 51 694
+rect 28 -700 51 -694
+rect -23 -719 23 -716
+rect -23 -736 -17 -719
+rect 17 -736 23 -719
+rect -23 -739 23 -736
+<< properties >>
+string FIXED_BBOX -106 -796 106 796
+string gencell sky130_fd_pr__nfet_g5v0d10v5
+string library sky130
+string parameters w 14.0 l 0.5 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.50 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

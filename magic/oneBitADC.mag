@@ -1,0 +1,64 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1700618825
+<< viali >>
+rect 972 2870 1038 2960
+rect 1080 2870 1146 2960
+rect 822 1388 888 1478
+rect 930 1388 996 1478
+<< metal1 >>
+rect 2252 4530 2452 4730
+rect 966 2960 1044 2972
+rect 966 2870 972 2960
+rect 1038 2870 1044 2960
+rect 966 2858 1044 2870
+rect 1074 2960 1152 2972
+rect 1074 2870 1080 2960
+rect 1146 2870 1628 2960
+rect 1074 2858 1152 2870
+rect 972 2650 1044 2858
+rect 972 2574 1038 2650
+rect 690 2506 1038 2574
+rect 690 1446 764 2506
+rect 4096 2240 4296 2440
+rect 816 1478 894 1490
+rect 816 1446 822 1478
+rect 690 1388 822 1446
+rect 888 1388 894 1478
+rect 690 1378 894 1388
+rect 924 1478 1002 1490
+rect 924 1388 930 1478
+rect 996 1458 1002 1478
+rect 996 1390 1242 1458
+rect 996 1388 1002 1390
+rect 690 1376 896 1378
+rect 924 1376 1002 1388
+rect 798 448 896 1376
+rect 1186 1060 1242 1390
+rect 1186 838 1386 1038
+rect 2588 520 2788 720
+rect 3322 448 3480 618
+rect 798 288 3480 448
+use sky130_fd_pr__res_generic_po_LSFYMF  sky130_fd_pr__res_generic_po_LSFYMF_0 ~/Project/magic
+timestamp 1700618825
+transform 1 0 909 0 1 1932
+box -253 -710 253 710
+use sky130_fd_pr__res_generic_po_R2PSDC  sky130_fd_pr__res_generic_po_R2PSDC_0 ~/Project/magic
+timestamp 1700618825
+transform 1 0 1059 0 1 3757
+box -253 -1053 253 1053
+use OpAmp5T  x1
+timestamp 1700618825
+transform 1 0 958 0 1 2662
+box 222 -2168 3338 2070
+<< labels >>
+flabel metal1 2252 4530 2452 4730 0 FreeSans 256 0 0 0 VCC
+port 0 nsew
+flabel metal1 4096 2240 4296 2440 0 FreeSans 256 0 0 0 Y
+port 3 nsew
+flabel metal1 2588 520 2788 720 0 FreeSans 256 0 0 0 Vin
+port 2 nsew
+flabel metal1 1186 838 1386 1038 0 FreeSans 256 0 0 0 VSS
+port 1 nsew
+<< end >>

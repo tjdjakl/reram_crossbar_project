@@ -1,1 +1,1 @@
-# reram_crossbar_project
+# ReRAM_Crossbar_Fall2023

@@ -1,0 +1,23 @@
+magic
+tech sky130B
+timestamp 1700613895
+<< metal1 >>
+rect 270 3050 423 3257
+rect -1 1348 152 1555
+rect 34 334 391 541
+use sky130_fd_pr__res_generic_po_NSB5VY  R1
+timestamp 1700521284
+transform 1 0 346 0 1 1795
+box -133 -1548 133 1548
+use sky130_fd_pr__res_generic_po_FHUZEF  R3
+timestamp 1697725482
+transform 1 0 80 0 1 944
+box -133 -698 133 698
+<< labels >>
+flabel metal1 178 392 278 492 0 FreeSans 128 0 0 0 Y
+port 2 nsew
+flabel metal1 313 3094 413 3194 0 FreeSans 128 0 0 0 VSS
+port 1 nsew
+flabel metal1 21 1399 121 1499 0 FreeSans 128 0 0 0 VCC
+port 0 nsew
+<< end >>

@@ -1,0 +1,51 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1700618825
+<< pwell >>
+rect 2994 4856 3550 4942
+<< viali >>
+rect 298 5018 364 5104
+rect 3430 5018 3496 5106
+<< metal1 >>
+rect 292 5104 370 5116
+rect 292 5018 298 5104
+rect 364 5018 370 5104
+rect 292 5006 370 5018
+rect 3424 5106 3502 5118
+rect 3424 5018 3430 5106
+rect 3496 5018 3502 5106
+rect 3424 5006 3502 5018
+rect 298 516 364 5006
+rect 1550 4582 1750 4782
+rect 3430 2494 3496 5006
+rect 3394 2294 3594 2494
+rect 484 894 684 1096
+rect 1882 770 2082 772
+rect 1880 572 2082 770
+rect 2590 592 2790 792
+rect 1880 570 2080 572
+rect 2626 516 2728 592
+rect 298 436 2728 516
+use OpAmp5TNeg  OpAmp5TNeg_0
+timestamp 1700618825
+transform 1 0 252 0 1 2714
+box 222 -2168 3338 2070
+use sky130_fd_pr__res_generic_po_CUHBBY  sky130_fd_pr__res_generic_po_CUHBBY_0
+timestamp 1700618825
+transform 1 0 1897 0 1 8585
+box -1765 -3733 1765 3733
+<< labels >>
+flabel metal1 3394 2294 3594 2494 0 FreeSans 256 0 0 0 Vout
+port 0 nsew
+flabel metal1 2590 592 2790 792 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+flabel metal1 1550 4582 1750 4782 0 FreeSans 256 0 0 0 VDD
+port 2 nsew
+flabel metal1 1880 570 2080 770 0 FreeSans 256 0 0 0 Gnd
+flabel metal1 484 896 684 1096 0 FreeSans 256 0 0 0 VSSneg
+flabel metal1 484 894 684 1094 0 FreeSans 256 0 0 0 VSSneg
+port 3 nsew
+flabel metal1 1882 572 2082 772 0 FreeSans 256 0 0 0 Gnd
+port 4 nsew
+<< end >>

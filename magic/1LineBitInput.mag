@@ -1,0 +1,55 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1700640585
+<< locali >>
+rect 6112 3160 6620 3934
+<< metal1 >>
+rect 4478 5018 4678 5218
+rect 6582 5050 6782 5250
+rect 4372 3980 4572 4180
+rect 6030 4020 6040 4142
+rect 6174 4020 6184 4142
+rect 6476 4012 6676 4212
+rect 9036 4006 9236 4206
+rect 6488 3546 6688 3746
+rect 4476 3184 4676 3384
+rect 6122 3160 6570 3450
+<< via1 >>
+rect 6040 4020 6174 4142
+<< metal2 >>
+rect 6040 4142 6174 4152
+rect 6040 4010 6174 4020
+<< via2 >>
+rect 6040 4020 6174 4142
+<< metal3 >>
+rect 6040 4702 6632 4804
+rect 6040 4147 6174 4702
+rect 6030 4142 6184 4147
+rect 6030 4020 6040 4142
+rect 6174 4020 6184 4142
+rect 6030 4015 6184 4020
+use 2-1MUX  x2
+timestamp 1700640585
+transform 1 0 7412 0 1 2560
+box -936 600 1824 2716
+use Buffer  x3
+timestamp 1700618825
+transform 1 0 2514 0 1 1800
+box 1858 1360 3698 3442
+<< labels >>
+flabel metal1 4372 3980 4572 4180 0 FreeSans 256 0 0 0 BL_LA_IN
+port 0 nsew
+flabel metal1 6582 5050 6782 5250 0 FreeSans 256 0 0 0 VDD
+port 3 nsew
+flabel metal1 4478 5018 4678 5218 0 FreeSans 256 0 0 0 VDD_MUX
+port 4 nsew
+flabel metal1 4476 3184 4676 3384 0 FreeSans 256 0 0 0 VSS
+port 5 nsew
+flabel metal1 9036 4006 9236 4206 0 FreeSans 256 0 0 0 BL_IN
+port 6 nsew
+flabel metal1 6488 3546 6688 3746 0 FreeSans 256 0 0 0 MAC_Read
+port 2 nsew
+flabel metal1 6476 4012 6676 4212 0 FreeSans 256 0 0 0 Write_Form_select
+port 1 nsew
+<< end >>

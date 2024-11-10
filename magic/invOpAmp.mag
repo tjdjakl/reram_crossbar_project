@@ -1,0 +1,71 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1700618825
+<< viali >>
+rect 1668 4942 1734 5064
+rect 3720 4942 3786 5052
+rect -1176 996 -1106 1128
+rect 878 994 944 1094
+<< metal1 >>
+rect 1662 5064 1740 5076
+rect 1662 5040 1668 5064
+rect 986 4942 1668 5040
+rect 1734 4942 1740 5064
+rect 986 4938 1740 4942
+rect -1422 1108 -1222 1184
+rect -1182 1128 -1100 1140
+rect -1182 1108 -1176 1128
+rect -1422 996 -1176 1108
+rect -1106 996 -1100 1128
+rect -1422 994 -1100 996
+rect -1422 984 -1222 994
+rect -1182 984 -1100 994
+rect 872 1094 950 1106
+rect 872 994 878 1094
+rect 944 1074 950 1094
+rect 986 1076 1092 4938
+rect 1662 4930 1740 4938
+rect 3714 5052 3792 5064
+rect 3714 4942 3720 5052
+rect 3786 4942 3792 5052
+rect 3714 4930 3792 4942
+rect 3720 4920 3792 4930
+rect 3720 4848 4192 4920
+rect 3720 4844 3786 4848
+rect 2252 4530 2452 4730
+rect 4108 2440 4192 4848
+rect 4096 2240 4296 2440
+rect 984 1074 1092 1076
+rect 944 994 1092 1074
+rect 872 982 950 994
+rect 984 424 1092 994
+rect 1180 840 1380 1040
+rect 2574 516 2776 716
+rect 3326 424 3442 598
+rect 984 340 3442 424
+use OpAmp5TNeg  OpAmp5TNeg_0
+timestamp 1700618825
+transform 1 0 946 0 1 2660
+box 222 -2168 3338 2070
+use sky130_fd_pr__res_generic_po_DLPQUP  sky130_fd_pr__res_generic_po_DLPQUP_0
+timestamp 1700618825
+transform 1 0 2727 0 1 6909
+box -1225 -2133 1225 2133
+use sky130_fd_pr__res_generic_po_JXMYC9  sky130_fd_pr__res_generic_po_JXMYC9_0
+timestamp 1700618825
+transform 1 0 -115 0 1 2961
+box -1225 -2133 1225 2133
+<< labels >>
+flabel metal1 4096 2240 4296 2440 0 FreeSans 256 0 0 0 Vout
+port 0 nsew
+flabel metal1 -1422 984 -1222 1184 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+flabel metal1 2252 4530 2452 4730 0 FreeSans 256 0 0 0 VDD
+port 2 nsew
+flabel metal1 2576 516 2776 716 0 FreeSans 256 0 0 0 Gnd
+flabel metal1 1180 840 1380 1040 0 FreeSans 256 0 0 0 VSSneg
+port 3 nsew
+flabel metal1 2574 516 2774 716 0 FreeSans 256 0 0 0 Gnd
+port 4 nsew
+<< end >>

@@ -1,0 +1,67 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1697725317
+<< pwell >>
+rect -266 -1296 266 1296
+<< psubdiff >>
+rect -230 1226 -134 1260
+rect 134 1226 230 1260
+rect -230 1164 -196 1226
+rect 196 1164 230 1226
+rect -230 -1226 -196 -1164
+rect 196 -1226 230 -1164
+rect -230 -1260 -134 -1226
+rect 134 -1260 230 -1226
+<< psubdiffcont >>
+rect -134 1226 134 1260
+rect -230 -1164 -196 1164
+rect 196 -1164 230 1164
+rect -134 -1260 134 -1226
+<< poly >>
+rect -100 1114 100 1130
+rect -100 1080 -84 1114
+rect 84 1080 100 1114
+rect -100 700 100 1080
+rect -100 -1080 100 -700
+rect -100 -1114 -84 -1080
+rect 84 -1114 100 -1080
+rect -100 -1130 100 -1114
+<< polycont >>
+rect -84 1080 84 1114
+rect -84 -1114 84 -1080
+<< npolyres >>
+rect -100 -700 100 700
+<< locali >>
+rect -230 1226 -134 1260
+rect 134 1226 230 1260
+rect -230 1164 -196 1226
+rect 196 1164 230 1226
+rect -100 1080 -84 1114
+rect 84 1080 100 1114
+rect -100 -1114 -84 -1080
+rect 84 -1114 100 -1080
+rect -230 -1226 -196 -1164
+rect 196 -1226 230 -1164
+rect -230 -1260 -134 -1226
+rect 134 -1260 230 -1226
+<< viali >>
+rect -84 1080 84 1114
+rect -84 717 84 1080
+rect -84 -1080 84 -717
+rect -84 -1114 84 -1080
+<< metal1 >>
+rect -90 1114 90 1126
+rect -90 717 -84 1114
+rect 84 717 90 1114
+rect -90 705 90 717
+rect -90 -717 90 -705
+rect -90 -1114 -84 -717
+rect 84 -1114 90 -717
+rect -90 -1126 90 -1114
+<< properties >>
+string FIXED_BBOX -213 -1243 213 1243
+string gencell sky130_fd_pr__res_generic_po
+string library sky130
+string parameters w 1.0 l 7.0 m 1 nx 1 wmin 0.330 lmin 1.650 rho 48.2 val 337.4 dummy 0 dw 0.0 term 0.0 sterm 0.0 caplen 0.4 snake 0 guard 1 glc 1 grc 1 gtc 1 gbc 1 roverlap 0 endcov 100 full_metal 1 hv_guard 0 n_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

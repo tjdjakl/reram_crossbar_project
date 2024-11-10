@@ -1,0 +1,72 @@
+magic
+tech sky130B
+timestamp 1700618825
+<< locali >>
+rect 312 -28 340 882
+rect 570 -28 598 882
+rect 312 -76 598 -28
+rect 312 -135 443 -76
+rect 591 -135 598 -76
+rect 312 -164 598 -135
+<< viali >>
+rect 443 -135 591 -76
+<< metal1 >>
+rect 391 462 396 488
+rect 425 462 430 488
+rect 446 63 466 814
+rect 429 36 434 63
+rect 479 36 484 63
+rect 312 -76 598 -27
+rect 312 -135 443 -76
+rect 591 -135 598 -76
+rect 312 -164 598 -135
+<< via1 >>
+rect 396 462 425 488
+rect 434 36 479 63
+<< metal2 >>
+rect 354 949 433 954
+rect 354 888 433 893
+rect 486 947 565 952
+rect 383 488 428 888
+rect 486 886 565 891
+rect 383 462 396 488
+rect 425 462 428 488
+rect 383 461 428 462
+rect 396 457 425 461
+rect 490 443 535 886
+rect 256 56 356 120
+rect 434 63 479 68
+rect 256 36 434 56
+rect 256 32 479 36
+rect 256 20 356 32
+rect 434 31 479 32
+<< via2 >>
+rect 354 893 433 949
+rect 486 891 565 947
+<< metal3 >>
+rect 345 949 445 965
+rect 345 893 354 949
+rect 433 893 445 949
+rect 345 865 445 893
+rect 478 947 578 965
+rect 478 891 486 947
+rect 565 891 578 947
+rect 478 865 578 891
+use sky130_fd_pr__nfet_g5v0d10v5_9YEQ2B  XM1 ~/Project/magic/ReRAM
+timestamp 1700618825
+transform 1 0 455 0 1 427
+box -139 -479 139 479
+use sky130_fd_pr_reram__reram_cell  XR1
+timestamp 1700618825
+transform 1 0 484 0 1 572
+box -3 -203 103 -97
+<< labels >>
+flabel metal1 326 -154 426 -54 0 FreeSans 128 0 0 0 VSS
+port 1 nsew
+flabel metal2 256 20 356 120 0 FreeSans 128 0 0 0 WL
+port 2 nsew
+flabel metal3 345 865 445 965 0 FreeSans 128 0 0 0 SL
+port 0 nsew
+flabel metal3 478 865 578 965 0 FreeSans 128 0 0 0 BL
+port 3 nsew
+<< end >>

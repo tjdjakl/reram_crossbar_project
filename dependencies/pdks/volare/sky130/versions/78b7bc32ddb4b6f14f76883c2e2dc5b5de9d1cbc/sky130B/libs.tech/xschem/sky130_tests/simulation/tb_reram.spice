@@ -1,0 +1,39 @@
+** sch_path: /home/tjdjakl/ReRAM_Crossbar_Project/dependencies/pdks/sky130B/libs.tech/xschem/sky130_tests/tb_reram.sch
+**.subckt tb_reram
+V1 net1 0 PWL (0 0 0.25u 1.8 0.5u 0 0.75u -1.8 1.0u 0.0)
+XR1 TOP 0 sky130_fd_pr_reram__reram_cell Tfilament_0=3.8e-9
+Vreram net1 TOP 0
+.save i(vreram)
+**** begin user architecture code
+
+
+.control
+  save all
+  tran 0.1n 1.5u
+  write tb_reram.raw
+.endc
+
+
+
+**** end user architecture code
+**.ends
+**** begin user architecture code
+
+.subckt sky130_fd_pr_reram__reram_cell TE BE Tfilament_0=3.3e-9 area_ox=0.1024e-12
+N1 TE BE nFilament sky130_fd_pr_reram__reram_model
+.ic v(nFilament)={Tfilament_0*1.0e9}
+.ends sky130_fd_pr_reram__reram_cell
+
+.model sky130_fd_pr_reram__reram_model sky130_fd_pr_reram__reram_module  area_ox = 0.1024e-12  Tox =
++ 5.0  Tfilament_max = 4.9  Tfilament_min = 3.3  Eact_generation = 1.501  Eact_recombination  = 1.500
++  I_k1  = 6.140e-5  Tfilament_ref = 4.7249  V_ref = 0.430  velocity_k1 = 150  gamma_k0  = 16.5  gamma_k1
++  = -1.25  Temperature_0 = 300  C_thermal = 3.1825e-16  tau_thermal = 0.23e-9  t_step  = 1.0e-9
++  smoothing = 1e-7  Kclip = 200
+
+.control
+pre_osdi
++ /home/tjdjakl/ReRAM_Crossbar_Project/dependencies/pdks/sky130B/libs.tech/ngspice/sky130_fd_pr_reram__reram_module.osdi
+.endc
+
+**** end user architecture code
+.end

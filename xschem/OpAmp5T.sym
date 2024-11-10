@@ -1,0 +1,26 @@
+v {xschem version=3.1.0 file_version=1.2}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+T {@symname} -49.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -52 0 0 0.2 0.2 {}
+L 4 -130 -40 130 -40 {}
+L 4 -130 40 130 40 {}
+L 4 -130 -40 -130 40 {}
+L 4 130 -40 130 40 {}
+B 5 -152.5 -32.5 -147.5 -27.5 {name=VCC dir=in }
+L 4 -150 -30 -130 -30 {}
+T {VCC} -125 -34 0 0 0.2 0.2 {}
+B 5 147.5 -32.5 152.5 -27.5 {name=Vout verilog_type=wire dir=out }
+L 4 130 -30 150 -30 {}
+T {Vout} 125 -34 0 1 0.2 0.2 {}
+B 5 -152.5 -12.5 -147.5 -7.5 {name=Vplus dir=in }
+L 4 -150 -10 -130 -10 {}
+T {Vplus} -125 -14 0 0 0.2 0.2 {}
+B 5 -152.5 7.5 -147.5 12.5 {name=Vminus dir=in }
+L 4 -150 10 -130 10 {}
+T {Vminus} -125 6 0 0 0.2 0.2 {}
+B 5 -152.5 27.5 -147.5 32.5 {name=VSS dir=in }
+L 4 -150 30 -130 30 {}
+T {VSS} -125 26 0 0 0.2 0.2 {}

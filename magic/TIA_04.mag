@@ -1,0 +1,47 @@
+magic
+tech sky130B
+magscale 1 2
+timestamp 1700618825
+<< viali >>
+rect 780 4960 860 5100
+rect 3040 4980 3120 5120
+<< metal1 >>
+rect 3034 5120 3126 5132
+rect 774 5100 866 5112
+rect 774 5060 780 5100
+rect 240 4960 780 5060
+rect 860 4960 866 5100
+rect 3034 4980 3040 5120
+rect 3120 4980 3500 5120
+rect 3034 4968 3126 4980
+rect 240 460 360 4960
+rect 774 4948 866 4960
+rect 1554 4582 1754 4782
+rect 3400 2494 3500 4980
+rect 3396 2294 3596 2494
+rect 490 896 690 1096
+rect 1886 572 2086 772
+rect 2590 592 2790 792
+rect 2590 580 2688 592
+rect 2590 460 2700 580
+rect 240 340 2700 460
+use sky130_fd_pr__res_generic_po_EDQ7N3  sky130_fd_pr__res_generic_po_EDQ7N3_0
+timestamp 1700538807
+transform 1 0 1951 0 1 7007
+box -1333 -2203 1333 2203
+use OpAmp5TNeg  x1
+timestamp 1700618825
+transform 1 0 257 0 1 2715
+box 222 -2168 3338 2070
+<< labels >>
+flabel metal1 1886 572 2086 772 0 FreeSans 256 0 0 0 Gnd
+port 4 nsew
+flabel metal1 490 896 690 1096 0 FreeSans 256 0 0 0 VSSneg
+port 3 nsew
+flabel metal1 3396 2294 3596 2494 0 FreeSans 256 0 0 0 Vout
+port 0 nsew
+flabel metal1 1554 4582 1754 4782 0 FreeSans 256 0 0 0 VDD
+port 2 nsew
+flabel metal1 2590 592 2790 792 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+<< end >>

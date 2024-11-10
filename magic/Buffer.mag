@@ -1,0 +1,33 @@
+magic
+tech sky130B
+timestamp 1700618825
+<< locali >>
+rect 1327 1553 1454 1721
+rect 1326 1209 1454 1553
+rect 1326 680 1454 1067
+<< metal1 >>
+rect 982 1609 1082 1709
+rect 1327 1552 1454 1721
+rect 929 1090 1029 1190
+rect 1365 1088 1436 1190
+rect 1749 1088 1849 1188
+rect 979 694 1079 794
+rect 1326 680 1454 825
+use Inverter  x1
+timestamp 1700618825
+transform 1 0 481 0 1 902
+box 448 -222 890 819
+use Inverter  x2
+timestamp 1700618825
+transform 1 0 959 0 1 902
+box 448 -222 890 819
+<< labels >>
+flabel metal1 929 1090 1029 1190 0 FreeSans 128 0 0 0 Vin
+port 2 nsew
+flabel metal1 1749 1088 1849 1188 0 FreeSans 128 0 0 0 Vout
+port 3 nsew
+flabel metal1 982 1609 1082 1709 0 FreeSans 128 0 0 0 VDD
+port 0 nsew
+flabel metal1 979 694 1079 794 0 FreeSans 128 0 0 0 VSS
+port 1 nsew
+<< end >>
